@@ -58,14 +58,6 @@ export default class UserRegister extends React.Component<AppProps, AppState> {
 
 	//life cycle method to runs before anything is rendered
 	//example data to test
-	componentDidMount() {
-		this.setState({
-			users: "test",
-			username: "test",
-			email: "example@gmail.com",
-			password: "password",
-		});
-	}
 
 	//update following variables to user input values
 	onChangeUsername = (e: React.ChangeEvent<HTMLInputElement>) => {
