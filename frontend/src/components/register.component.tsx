@@ -24,7 +24,7 @@ interface AppState {
 	email: string;
 	password: string;
 	retypepassword: string;
-	res: string;
+	res?: string;
 	date?: Date;
 	e?:{ target: { value: string }; };
 }
