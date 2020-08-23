@@ -19,7 +19,7 @@
     // "build": "cd frontend && npm run build",
     "frontend": "npm start --prefix frontend",
     "heroku-prebuild": "npm install --dev",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm i && cd frontend && npm i && npm run build",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm i && cd frontend && npm i && npm run build"
   },
   "author": "",
   "license": "ISC"
