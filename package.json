@@ -16,10 +16,10 @@
   },
   "scripts": {
     "server": "nodemon --watch src ./src/server.js",
-    "build": "cd frontend && npm run build",
+    // "build": "cd frontend && npm run build",
     "frontend": "npm start --prefix frontend",
+    "heroku-prebuild": "npm install --dev",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm i && cd frontend && npm i && npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC"
